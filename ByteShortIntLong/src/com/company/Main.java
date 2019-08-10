@@ -9,8 +9,11 @@ public class Main {
 
     int myIntValue = 10000;
 
-    long myLongValue = 50000 + 10 * (myByteValue + myShortValue + myIntValue);
+    long myLongValue = 50000L + 10L * (myByteValue + myShortValue + myIntValue);
 
     System.out.println(myLongValue);
+
+
+    short shortTotal = (short) (1000 + 10 * (myByteValue + myIntValue + myLongValue));
   }
 }
