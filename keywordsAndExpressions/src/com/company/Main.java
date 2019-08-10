@@ -2,10 +2,18 @@ package com.company;
 
 public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
+  public static void main(String[] args) {
+    boolean gameOver = true;
+    int score = 5000;
+    int levelCompleted = 5;
+    int bonus = 100;
 
-        double kilometers=(100*1.609344);
-
+    if (score <= 5000) {
+      System.out.println("Your score is less than 5000");
+    } else {
+      System.out.println("Got here");
     }
+
+
+  }
 }
