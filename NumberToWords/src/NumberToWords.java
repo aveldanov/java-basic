@@ -51,10 +51,8 @@ public class NumberToWords {
           break;
       }
       reversed=reversed/10;
-      count--;
-
+            count--;
     }
-
   }
 
 
