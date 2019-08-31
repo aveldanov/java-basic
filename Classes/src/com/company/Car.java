@@ -8,5 +8,18 @@ public class Car {
   private String engine;
   private String color;
 
+  public void setModel(String model) {
+    String valModel = model.toLowerCase();
+    if (valModel.equals("carrera") || valModel.equals("commodore")) {
+      this.model = model;
+    } else {
+      this.model = "Unknown";
+    }
+  }
+
+  public String getModel() {
+    return this.model;
+  }
+
 }
 
