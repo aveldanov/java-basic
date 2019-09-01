@@ -8,11 +8,10 @@ public class Main {
     BankAccount bankAccount1 = new BankAccount();
     BankAccount bankAccount2 = new BankAccount();
     BankAccount bankAccount3 = new BankAccount("123", 130, "Anton", "test@test.com", "408-12345");
-BankAccount bankAccount4=new BankAccount();
+    BankAccount bankAccount4 = new BankAccount();
     bankAccount1.setAcctNumber("123");
     bankAccount2.setAcctNumber("456");
     //    System.out.println(bankAccount1.getAcctNumber());
-
 
     bankAccount1.setBalance(100);
     bankAccount1.depositFunds(10);
