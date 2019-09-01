@@ -24,5 +24,10 @@ public class Main {
 
     System.out.println(bankAccount4.getBalance());
 
+
+    BankAccount bankAccount5 = new BankAccount("Tim","Email","1234");
+
+    System.out.println(bankAccount5.getAcctNumber());
+    System.out.println(bankAccount4.getAcctNumber());
   }
 }

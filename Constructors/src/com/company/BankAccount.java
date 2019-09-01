@@ -22,6 +22,11 @@ public class BankAccount {
     System.out.println("BankAccount Constructor with parameters called");
   }
 
+  public BankAccount(String customerName, String customerEmail, String customerPhone) {
+    this("9999", 100.55, customerName, customerEmail, customerPhone);
+  }
+
+
   public String getAcctNumber() {
     return acctNumber;
   }
