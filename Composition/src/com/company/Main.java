@@ -12,9 +12,8 @@ public class Main {
     Monitor monitor = new Monitor("27inch beast", "Acer", 27, new Resolution(2540, 1440));
     Motherboard motherboard = new Motherboard("BJ-200", "Asus", 4, 6, "v2.44");
 
-    PC pc = new PC(theCase, monitor, motherboard);
+    PC thePc = new PC(theCase, monitor, motherboard);
 
-    pc.getMonitor().drawPixelAt(1500, 1200, "red");
-
+    thePc.powerUp();
   }
 }
